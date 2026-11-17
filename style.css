@@ -1,0 +1,76 @@
+/* Загальні налаштування сторінки */
+body {
+    background-color: #eef2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Шапка сайту */
+header {
+    background-color: #1b365d;
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 26px;
+}
+
+header p {
+    margin: 0;
+    color: #b0c4de;
+    font-size: 16px;
+}
+
+/* Блоки контенту (картки) */
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+    color: #1b365d;
+    border-bottom: 2px solid #eef2f5;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+/* Оформлення таблиці */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #dcdcdc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+/* Виділення рядка таблиці */
+tr.highlight {
+    background-color: #fcf8e3;
+}
+
+/* Підвал */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #777777;
+    font-size: 14px;
+}
